@@ -1,0 +1,125 @@
+* {
+font-family: 'Times New Roman', Times, serif;
+}
+ .img{
+  width: 5vh;
+  height: 5vh;
+  opacity: 70%;
+ }
+
+ .search-bar{
+ display: flex;
+  gap: 1vh;
+ }
+html {
+background-color: #f7f7f7;
+font-family: 'Times New Roman', Times, serif;
+background-image: url("https://th.bing.com/th/id/OIP.wQrp4QsbaETLM3qpPNvCSQHaEK?rs=1&pid=ImgDetMain");
+background-size:100vmax;
+}
+
+.app-name {
+font-size: 3rem;
+color: rgb(46, 22, 53);
+margin-bottom: 16px;
+}
+
+.App {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 600px;
+min-height: 440px;
+background-color:rgba(247, 243, 243, 0.137);
+text-align: center;
+margin: 128px auto;
+border-radius: 10px;
+padding: 5vh;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.city-search {
+width: 100%;
+max-width: 400px;
+box-sizing: border-box;
+border: 2px solid rgb(204, 204, 204);
+outline: none;
+border-radius: 20px;
+font-size: 16px;
+background-color: #e5eef0;
+background-position: 10px 12px;
+background-repeat: no-repeat;
+padding: 12px 40px 12px 40px;
+-webkit-transition: width 0.4s ease-in-out;
+transition: width 0.4s ease-in-out;
+color: #333;
+}
+
+.city-search:focus {
+
+  width: 100%;
+}
+
+.city-name {
+font-size: 1.5rem;
+color: #fcf9f9;
+margin-bottom: 8px;
+}
+
+.date {
+font-size: 1.25em;
+font-weight: 500;
+color: #fffdfd;
+}
+
+.icon-temp {
+font-size: 3rem;
+font-weight: 700;
+color: #fbfbfc;
+text-align: center;
+}
+
+.deg {
+font-size: 1.3rem;
+vertical-align: super;
+}
+
+.des-wind {
+font-weight: 500;
+color: #fffdfd;
+}
+
+.error-message {
+display: block;
+text-align: center;
+color: #d32f2f;
+font-size: 24px;
+margin-top: auto;
+}
+
+.Loader {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+.Loader>div {
+margin: 0 auto;
+}
+
+
+.weather-icon {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.weather-icon img {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
